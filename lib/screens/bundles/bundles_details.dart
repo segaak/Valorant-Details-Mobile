@@ -416,7 +416,7 @@ class _BundleDetailPageState extends State<BundleDetailPage> {
 
           final String mainImageUrl = _selectedSkin!.displayIcon ?? '';
 
-        return SafeArea(
+          return SafeArea(
             child: SingleChildScrollView(
               physics: const BouncingScrollPhysics(),
               child: Padding(
@@ -458,7 +458,7 @@ class _BundleDetailPageState extends State<BundleDetailPage> {
                               fontSize: 18,
                               color: Color(0xFFFF4655))),
                     ),
-                    const Divider(color: Color(0xFFFF4655), thickness: 2),
+                    const Divider(color: Color(0xFFFF4655), thickness: 2, endIndent: 200,),
                     const SizedBox(height: 10),
 
                     SizedBox(
